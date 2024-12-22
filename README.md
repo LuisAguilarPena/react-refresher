@@ -1,4 +1,8 @@
-# React + Vite
+# React Refresher
+
+The purposes of this repo is to save my personal notes, summaries, and exercises of React related books.  
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

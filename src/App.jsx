@@ -1,18 +1,12 @@
-import { useState } from 'react'
+import ReactWhatWhy from "./reactKeyConcepts/ch1/ReactWhatWhy";
 import './App.css'
 
 function App() {
-  const [pText, setPText] = useState('Original Text With React')
-  function updateTextHandler() {
-    setPText('Text was changed!')
-  }
-
   return (
     <>
-      <button onClick={updateTextHandler}>
-        Click to change paragraph&apos;s text
-      </button>
-      <p>{pText}</p>
+      {/* React Key Concepts */}
+      {/* Chapter 1 */}
+      <ReactWhatWhy/>
     </>
   )
 }
