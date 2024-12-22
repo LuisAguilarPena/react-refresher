@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Refresher</title>
+  </head>
+  <body>
+    <h2>Example Vanilla JS for Chapter 1 React – What and Why</h2>
+    <button>Click me to replace paragraph's text</button>
+    <p>Original Text</p>
+    <script>
+      const buttonElement = document.querySelector('button');
+      const paragraphElement = document.querySelector('p');
+      function updateTextHandler() {
+      paragraphElement.textContent = 'Text was changed!';
+      }
+      buttonElement.addEventListener('click', updateTextHandler);
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
